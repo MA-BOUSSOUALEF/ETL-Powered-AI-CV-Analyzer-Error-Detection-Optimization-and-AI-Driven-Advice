@@ -1,0 +1,11 @@
+datasetCV/
+# Ignorer les fichiers temporaires
+*.tmp
+
+# Ignorer les fichiers de cache
+.cache/
+
+# Ignorer les fichiers d'environnement virtuel
+venv/
+.env
+Cv_traitement/
