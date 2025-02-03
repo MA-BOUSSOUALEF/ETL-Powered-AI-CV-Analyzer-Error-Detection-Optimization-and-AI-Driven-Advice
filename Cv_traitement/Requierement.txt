@@ -1,3 +1,14 @@
 python3 -m venv Cv_traitement 
 source Cv_traitement/bin/activate
 pip install pandas numpy
+pip install spacy
+python -m spacy download fr_core_news_sm
+ pip install pdfminer.six
+ python -m spacy download en_core_web_sm
+
+
+
+pip install seaborn
+pip install matplotlib
+pip install flask
+pip install PyPDF2
