@@ -158,8 +158,7 @@ def pred():
                                phone=phone,name=name,email=email,extracted_skills=extracted_skills,extracted_education=extracted_education)
     else:
         return render_template("resume.html", message="No resume file uploaded.")
-     
-  
+
 
 if __name__ == '__main__':
   app.run(debug=True)
